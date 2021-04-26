@@ -1,5 +1,9 @@
 [package]
 name = "simplegen"
+authors = ["Gary Moore"]
+description = """simplegen is a simple text buffer that maintains indentation
+for calls to `println()`. The contents of the buffer can be retrieved by
+calling the `to_string()` method."""
 version = "0.1.0"
 edition = "2018"
 

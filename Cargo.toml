@@ -4,9 +4,16 @@ authors = ["Gary Moore"]
 description = """simplegen is a simple text buffer that maintains indentation
 for calls to `println()`. The contents of the buffer can be retrieved by
 calling the `to_string()` method."""
+repository = "https://github.com/MadManGaz/simplegen/"
+readme = "README.md"
+keywords = ["codegen"]
+categories = ["template-engine"]
+license = "GPL-2.0-only"
 version = "0.1.0"
 edition = "2018"
+exclude = ["./github"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[badges]
+maintenance = { status = "actively-developed" }
 
 [dependencies]

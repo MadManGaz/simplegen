@@ -49,7 +49,7 @@ impl IndentedPrinter {
     }
 
     /// Write a line to the internal buffer at the current indentation level.
-    pub fn println(&mut self, str: &'static str) {
+    pub fn println(&mut self, str: &str) {
         let indent_size = self.indent * self.level;
         let indent_str = " ".repeat(indent_size as usize);
         self.buffer.push(format!("{}{}", indent_str, str));
@@ -68,13 +68,13 @@ impl IndentedPrinter {
     }
 
     /// Indent right then print a string to the internal buffer.
-    pub fn println_right(&mut self, str: &'static str) {
+    pub fn println_right(&mut self, str: &str) {
         self.indent_right();
         self.println(str);
     }
 
     /// Indent left then print a string to the internal buffer.
-    pub fn println_left(&mut self, str: &'static str) {
+    pub fn println_left(&mut self, str: &str) {
         self.indent_left();
         self.println(str);
     }

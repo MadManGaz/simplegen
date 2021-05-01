@@ -16,7 +16,7 @@ fn main() {
     buffer.println("[");
     buffer.indent_right();
 
-    for number in 1..5 {
+    for number in 1..=5 {
         buffer.println("{");
         buffer.println_right(format!("\"number\": {}", number).as_str());
         

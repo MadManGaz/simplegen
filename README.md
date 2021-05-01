@@ -2,6 +2,8 @@
 
 simplegen is a simple code generator library.
 
+![simplegen](https://github.com/MadManGaz/simplegen/actions/workflows/rust.yml/badge.svg)
+
 It is a text buffer that preserves indentation level on calls to `println()`.
 The contents of the buffer can be retrieved with `to_string()`.
 

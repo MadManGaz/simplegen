@@ -8,8 +8,8 @@ repository = "https://github.com/MadManGaz/simplegen/"
 readme = "README.md"
 keywords = ["codegen"]
 categories = ["template-engine"]
-license = "GPL-2.0-only"
-version = "0.2.2"
+license = "MIT"
+version = "0.2.3"
 edition = "2018"
 
 [badges]
